@@ -1,0 +1,131 @@
+.downloader-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .downloader-container h1 {
+    font-size: 1.5rem;
+  }
+  .downloader-container h5 {
+    margin-bottom: 20px;
+
+  }
+  .downloader-container h5 span {
+    color: #f50057;
+
+  }
+  
+  .url-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .download-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .download-button:disabled {
+    background-color: #ccc;
+  }
+  
+  .download-button:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .video-data {
+    margin-top: 20px;
+  }
+  
+  .thumbnail {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .download-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0c4a21;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+  }
+  
+  .download-link:hover {
+    background-color: #0c4a21;
+  }
+  
+  @media (max-width: 768px) {
+    .downloader-container {
+      padding: 15px;
+    }
+  
+    .download-link {
+      padding: 8px 16px;
+      margin-right: 5px;
+      font-size: 0.9rem;
+    }
+  
+    .download-button {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+  
+    .url-input {
+      padding: 8px;
+      font-size: 0.9rem;
+    }
+  
+    .thumbnail {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .downloader-container {
+      padding: 10px;
+    }
+  
+    .download-link {
+      padding: 6px 12px;
+      margin-right: 5px;
+      font-size: 0.8rem;
+    }
+  
+    .download-button {
+      padding: 6px 12px;
+      font-size: 0.8rem;
+    }
+  
+    .url-input {
+      padding: 6px;
+      font-size: 0.8rem;
+    }
+  
+    .downloader-container h1 {
+      font-size: 1.2rem;
+    }
+  }
+  
